@@ -213,7 +213,7 @@ input[type=submit]:hover {
       <label for="num">phone number</label>
     </div>
     <div class="col-75">
-      <input type="tel" id="num" name="num" pattern="[0-9]{11}" maxlength="11" minlength="11" placeholder="Your phone num.." required>
+      <input type="tel" id="num" name="num" pattern="[01]+[0-9]{9}" maxlength="11" minlength="11" placeholder="Your phone num.." title="Must put 11 number start whith 01" required>
     </div>
   </div>
    <div class="row">
@@ -221,7 +221,7 @@ input[type=submit]:hover {
       <label for="MAIL"> E-mail</label>
     </div>
     <div class="col-75">
-      <input type="text" id="MAIL" name="MAIL" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Your MAIL.." required>
+      <input type="text" id="MAIL" name="MAIL" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[com]{2,}$" placeholder="Your MAIL.." title="Must put @ and .com, Must not put spases"required>
     </div>
   </div> 
   <div class="row">
@@ -229,7 +229,7 @@ input[type=submit]:hover {
       <label for="pass">Password</label>
     </div>
     <div class="col-75">
-      <input type="text" id="pass" pattern="[A-Z](?=.*\d)(?=.*[a-z])(?=.*[-_#&\*\.]).{7}" name="pass" placeholder="Your Password.." required>
+      <input type="text" id="pass" pattern="[A-Z](?=.*\d)(?=.*[a-z])(?=.*[-_#&\*\.]).{7}" name="pass" placeholder="Your Password.."  title="Must contain at least one number and start one uppercase  and lowercase letter,special character such as(-_#&\*\.) , and   8 characters onle and you Must not put spases"required>
     </div>
   </div>
   <div class="row">
@@ -315,3 +315,4 @@ function myFunction2() {
 
 </body>
 </html>
+
