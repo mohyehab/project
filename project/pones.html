@@ -47,9 +47,27 @@ img.imgcl{
   background-color: #04AA6D;
   color: white;
 }
+.btn {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color:green;
+}
 
 .content {
   padding: 16px;
+}
+#download  {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
 .sticky {
@@ -83,8 +101,18 @@ img.imgcl{
 <h2>superfood</h2>
 
       <img src="gettyimages-855098134-1024x1024.jpg" class="imgcl" alt="Menu" style="width:40%" align="left">
-  <a href="/project/Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf" download>Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf</a>
-    </div><br>
+      <h3>Download pdf</h3>
+      <br>
+      <div>
+        <a id="download"href="/project/Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf" download>
+          <img src="nhj0.png"></a>
+        
+  <a id="download"href="/project/Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf" download>Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf</a>
+  <a id="download"href="/project/Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf" download>
+  <button class="btn"><i class="fa fa-download"></i> Download</button>     </a>
+
+    </div>
+  </div><br>
 
 <br>
 <br>
@@ -106,6 +134,10 @@ function myFunction() {
   }
 }
 </script>
+
+</body>
+</html>
+
 
 </body>
 </html>
