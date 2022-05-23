@@ -101,7 +101,7 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: #f2f2f2;
   padding: 20px;
 }
@@ -132,24 +132,33 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+  .container {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 7px;
+}
   
   .col-25 {
   float: left;
-  width: 30%;
+  width: 44%;
   margin-top: 6px;
 }
-   #country{
-  float: left;
-  width: 72%;
-  margin-top: 6px;
-   }
 
 .col-75 {
   float: left;
-  width: 60%;
+  width: 48%;
   margin-top: 6px;
 }
-  
+  #gan{
+    float: left;
+  width: 60%;
+  margin-top: 6px;
+  }
+  #gen{
+    float: left;
+  width: 31%;
+  margin-top: 6px;
+  }
 
 /* Clear floats after the columns */
 .row:after {
@@ -266,10 +275,10 @@ input[type=submit]:hover {
     </div>
   </div>
   <div class="row">
-    <div class="col-25">
+    <div class="col-25" id="gen">
       <label for=" gender"> gendere</label>
     </div>
-    <div class="col-75" >
+    <div class="col-75" id="gan">
       <label>mail</label>
  <input type="radio" name="mail" >
  <label>femail</label>
