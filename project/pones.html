@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
    background-color: #f1f1f1;
@@ -33,6 +33,7 @@ img.imgcl{
   float: left;
   display: block;
   color: white;
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -52,8 +53,7 @@ img.imgcl{
   background-color: #04AA6D;
   border: none;
   color: white;
-    border-radius:  15px 50px;
-       padding-top:20px;
+  border-radius:  15px 50px;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
@@ -66,11 +66,12 @@ img.imgcl{
 .content {
   padding: 16px;
 }
-#download  {
+#download2  {
   color: black;
   padding: 8px 16px;
   text-decoration: none;
 }
+
 .sticky {
   position: fixed;
   top: 0;
@@ -82,22 +83,7 @@ img.imgcl{
 }.pagination {
   display: inline-block;
 }
-   @media screen and (max-width: 600px) {
-   body {
-   background-color: #f1f1f1;
-  padding: 0px;
-  font-family: Arial;
-      }
-      .btn {
-  background-color: #04AA6D;
-  border: none;
-  color: white;
-    border-radius:  15px 50px;
-         float:right;
-  padding: 30px;
-  cursor: pointer;
-  font-size: 20px;
-}
+@media (max-width: 600px) {
    #navbar a {
   float: left;
   display: block;
@@ -107,26 +93,24 @@ img.imgcl{
   text-decoration: none;
   font-size: 12px;
 }
-   .btn {
-  background-color: #04AA6D;
-  border: none;
-  color: white;
-  padding: 40px 30px;
-  cursor: pointer;
-  font-size: 20px;
+#download2  {
+  color: black;
+  padding: 0px 4px;
+  text-decoration: none;
+}
+.btn {
+  float: right;
+  padding:12px 20px;
 }
 
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color:green;
-}
+
    }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h2>Pones</h2>
+  <h2>Bonues</h2>
   <h2>thanks for your register</h2>
 </div>
 
@@ -144,12 +128,12 @@ img.imgcl{
       <h3>Download pdf</h3>
       <br>
       <div>
-        <a id="download"href="Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf" download>
+        <a id="download1"href="Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf" download>
           <img src="nhj0.PNG"></a>
         
-  <a id="download"href="Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf" download>Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf</a>
-  <a id="download"href="Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf" download>
-  <button class="btn"><i class="fa fa-download"></i> Download</button>     </a>
+  <a id="download2"href="Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf" download>Superfoods Preven.pdf</a>
+  <a id="download"href="Superfoods_Recent_Data_on_their_Role_in_the_Preven.pdf" align="right" download>
+  <button class="btn"><i class="fa fa-download"  ></i> Download</button>     </a>
 
     </div>
   </div>
@@ -172,4 +156,3 @@ function myFunction() {
 
 </body>
 </html>
-
