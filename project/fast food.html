@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -64,35 +63,18 @@ body {
   float: left;
   padding: 8px 16px;
   text-decoration: none;}
-  #customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#customers td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-#customers tr:hover {background-color: #ddd;}
+  /* Center website */
 .main {
   max-width: 1000px;
   margin: auto;
-}#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #04AA6D;
-  color: white;
 }
 
 h1 {
   font-size: 50px;
   word-break: break-all;
-}.row {
+}
+
+.row {
   margin: 8px -16px;
 }
 
@@ -134,7 +116,33 @@ h1 {
   width: 100%;
   height: 450px;
 }
-@media screen and (max-width: 600px) {
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
@@ -149,105 +157,66 @@ h1 {
   text-align: center;
   padding: 8px 10px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 14px;}
+  body {
+   background-color: #f1f1f1;
+  padding: 0px;
+  font-family: Arial;
 }
 
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #04AA6D;
-  color: white;
 }
+
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h2>superfood</h2>
+  <h2>Fast Food</h2>
 </div>
 
 <div id="navbar">
    <a href="home.html">Home</a>
   <a href="healthyfood.html">healthy food</a>
   <a href="fast%20food.html">fast food</a>
-  <a href="superfood.html">super food</a>
+   <a href="superfood.html">superfood</a>
   <a href="form2.html">register</a>
 </div>
 
 <div class="content">
-  <img src="gettyimages-855098134-1024x1024.jpg" width="100%">
-<h2>Super Food</h2>
+<img src=" rw.jpg" width="100%">
+<h2>fast food</h2>
 <div>
-    Abstract
-        A qualitative research project was conducted to examine 
-        the meanings of foods within adolescent female 
-        culture by looking at ways in which young women classify and use foods.
-        Ninety-three young women ages 11 to 18 participated in semi-structured
-        individual interviews or small group discussions in which they talked about what,
-        where, and with whom they ate. The main food classification scheme that 
-        emerged from the data analysis was the dichotomization of foods into two 
-        groups: “healthy foods” and “junk foods”. The study participants
-        agreed on the core foods and common characteristics of foods in each group. They 
-    Résumé
-</div>
-<table id="customers">
-  <tr>
-    <th>Food</th>
-    <th>Type</th>
-    
-  </tr>
-  
-  <tr>
-    <td>Less Ripe</td>
-    <td>Lime, Gooseberry</td>
- 
-  </tr>
-  <tr>
-    <td>Medium</td>
-    <td>Green apple, Citrus, Passion fruit</td>
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="#pizza">pizza</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<p>his is the first entry in a new column from journalist and author Adam Chandler, who will be covering fast food in an attempt to make sense of the complexities of the industry as it evolves, adapts, and continues to inspire reactions positive and negative alike.
 
-  </tr>
-  <tr>
-    <td>More Ripe</td>
-    <td>Grapefruit, Peach, Melon</td>
-   
-  </tr>
-  <tr>
-    <td>Oaked</td>
-    <td>Vanilla, Smoke</td>
-    
-  </tr>
-  <tr>
-    <td>Vermentino</td>
-    <td>More floral and citrus</td>
-   
-  </tr>
-  <tr>
-    <td>Gruner Veltiner</td>
-    <td>More lime, lemon, and grapfruit</td>
- 
-  </tr>
-  <tr>
-    <td>Verdejo</td>
-    <td>More texture and peach</td>
-   
-  </tr>
-</table>
-<h2>super food</h2>
+
+There has always been fast food. From the pizza booths of ancient Rome and the 12th-century markets along the Thames to the makeshift kitchens of the Chili Queens of 1800s San Antone, the culinary tradition of affordable, portable, quickly scarfable fare goes at least as far back as Exodus, when the ancient Israelites ate matzo while hurrying out of Egypt.
+
+FEATURED VIDEO
+How to Make Fast, Easy Mushroom Risotto in Your Pressure Cooker.
+
+But even with these (extremely) particular parameters, fast food is more than that. After taking a fast food tour acros</p></div>
+<h2 id="pizza">pizza</h2>
 <div class="row">
   <div class="column">
     <div class="content">
-    <img src="sui.jpg" alt="Dark Leafy Vegetables" stylex="width:100%" class="imginner">
-      <h3>Dark Leafy Vegetables</h3>
-      <p>excellent source of nutrients:  folate, zinc, calcium, iron, magnesium, vitamin c, and fiber</p>
+      <a href="3981417.jpg" target="_blank">
+    <img src="3981417.jpg" alt="Original" stylex="width:100%" class="imginner"></a>
+      <h3>Original</h3>
+      <p>Tomato sauce, mozzarella & oregano</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-    <img src="top-superfoods-2-500x500.jpg" alt="Berries" stylex="width:100%" class="imginner">
-      <h3>Berries</h3>
-      <p>loaded with vitamins minerals, fiber, and antioxidants.</p>
+      <a href="sdw.jpg" target="_blank">
+    <img src="sdw.jpg" alt="Hawaiian" stylex="width:100%" class="imginner">
+     </a> <h3>Hawaiian</h3>
+      <p>Tomato sauce, mozzarella, ham & pineapple</p>
     </div>
   </div>
 </div>
@@ -255,37 +224,41 @@ h1 {
 <div class="row">
   <div class="column">
     <div class="content">
-      <img src="top-superfoods-4-500x500.jpg" alt="Kefir (and Yogurt)" stylex="width:100%" class="imginner">
-      <h3> Kefir (and Yogurt)</h3>
-      <p>contains protein, calcium, B vitamins, potassium, and probiotics</p>
+      <a href="pizza-dark-background-classic-italian-pizza-with-tomatoes-pepper-vegetables-sauce-mozarella-cheese-dark-kitchen-table-copy-space_90380-947.jpg" target="_blank">
+      <img src="pizza-dark-background-classic-italian-pizza-with-tomatoes-pepper-vegetables-sauce-mozarella-cheese-dark-kitchen-table-copy-space_90380-947.jpg" alt="Salami" stylex="width:100%" class="imginner"></a>
+      <h3>Salami</h3>
+      <p>Tomato sauce, mozzarella & mild salami</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-    <img src="superfoods-500x500.jpg" alt="Avocado" stylex="width:100%" class="imginner">
-      <h3>Avocado</h3>
-      <p>Rich in fiber, vitamins, minerals, healthy fats, high in monounsaturated fats</p>
+      <a href="mixed-pizza-with-olive-bell-pepper-tomato_140725-183.jpg" target="_blank">
+    <img src="mixed-pizza-with-olive-bell-pepper-tomato_140725-183.jpg" alt="Chicken" stylex="width:100%" class="imginner"></a>
+      <h3>Chicken</h3>
+      <p>Tomato sauce, mozzarella, chicken, pineapple* & bbq sauce</p>
     </div>
   </div>
 
 
-</div>
+
+<!-- END GRID -->
+
 <br><br>
 <br>
 <br>
 <br>
 <br>
 <br>
-
+<center>
  <center>
 <div class="pagination">
-  <a href="fast%20food.html">&laquo;</a>
+  <a href="healthyfood.html">&laquo;</a>
   <a href="home.html">1</a>
   <a href="healthyfood.html">2</a>
   <a href="fast%20food.html">3</a>
   <a href="superfood.html">4</a>
   <a href="form2.html">5</a>
-  <a href="form2.html">&raquo;</a>
+  <a href="superfood.html">&raquo;</a>
 </div></center>
 </div>
 
